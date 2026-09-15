@@ -2,7 +2,7 @@ import sqlite3
 
 def conectar_banco():
     # ERRO DE SEGURANÇA 1: Credencial hardcoded no código fonte
-    password_db =os.getenv("DB_PASSWORD", "senha_padrao_local")
+    password_db = "senha_super_secreta"
     print(f"Conectando ao banco com a senha: {password_db}")
 
 def buscar_usuario(nome_usuario):
