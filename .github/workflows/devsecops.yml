@@ -3,7 +3,7 @@ name: Pipeline DevSecOps - Aula Pratica
 # Define o gatilho: a esteira roda toda vez que houver um push na branch main
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "teste" ]
 
 jobs:
   seguranca:
